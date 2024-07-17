@@ -11,8 +11,14 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@editorjs/checklist": "^1.6.0",
+    "@editorjs/editorjs": "^2.30.2",
+    "@editorjs/header": "^2.8.7",
+    "@editorjs/list": "^1.9.0",
     "@kangc/v-md-editor": "^2.3.18",
+    "editorjs-latex": "^1.0.5",
     "vue": "^3.4.29",
+    "vue-editor-js": "^2.0.2",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
