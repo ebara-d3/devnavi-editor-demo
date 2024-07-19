@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import EditorJS from '@editorjs/editorjs';
 import Header from '@editorjs/header';
 import Checklist from '@editorjs/checklist';
 import EJLaTeX from 'editorjs-latex';
 import List from '@editorjs/list';
+import MathTool from 'editorjs-math';
 
 const editor = new EditorJS(
   {
@@ -32,6 +32,17 @@ const editor = new EditorJS(
           defaultStyle: 'unordered'
         }
       },
+      math: {
+        class: MathTool,
+        config: {
+          katex: {
+            // 配置 KaTeX 选项
+            macros: {
+              "\\RR": "\\mathbb{R}"
+            }
+          }
+        }
+      }
     },
     data: {
       blocks: [

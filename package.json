@@ -17,6 +17,7 @@
     "@editorjs/list": "^1.9.0",
     "@kangc/v-md-editor": "^2.3.18",
     "editorjs-latex": "^1.0.5",
+    "editorjs-math": "^1.0.2",
     "vue": "^3.4.29",
     "vue-editor-js": "^2.0.2",
     "vue-router": "^4.3.3"
