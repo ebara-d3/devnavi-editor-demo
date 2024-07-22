@@ -5,6 +5,7 @@ import Checklist from '@editorjs/checklist';
 import EJLaTeX from 'editorjs-latex';
 import List from '@editorjs/list';
 import MathTool from 'editorjs-math';
+import MathEditor from 'editorjs-mathlive';
 
 const editor = new EditorJS(
   {
@@ -31,6 +32,16 @@ const editor = new EditorJS(
         config: {
           defaultStyle: 'unordered'
         }
+      },
+      mathEditor: {
+        class: MathEditor,
+        inlineToolbar: true,
+        config: {
+          virtualKeyboardMode: 'manual',
+          defaultMode: 'math',
+          smartMode:false,
+          virtualKeyboardTheme:'material',
+        },
       },
       math: {
         class: MathTool,
