@@ -1,0 +1,9 @@
+declare module '@editorjs/checklist';
+declare module 'editorjs-latex';
+declare module '@editorjs/list';
+declare module 'editorjs-math';
+declare module 'editorjs-mathlive';
+declare module '@kangc/v-md-editor';
+declare module '@kangc/v-md-editor/lib/plugins/katex/cdn';
+declare module '@kangc/v-md-editor/lib/lang/en-US';
+declare module '@kangc/v-md-editor/lib/theme/vuepress.js';
