@@ -3,7 +3,9 @@
 
 <template>
   <main class="main">
-    <h1>First editor demo</h1>
+    <h1>デモについて</h1>
+    <p>
+    </p>
   </main>
 </template>
 

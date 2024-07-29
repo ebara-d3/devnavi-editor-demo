@@ -111,6 +111,7 @@ const editor = new EditorJS(
 <template>
   <main class="main">
     <h1>Editor.js</h1>
+    <p></p>
     <!-- <v-md-editor v-model="text" height="400px"></v-md-editor> -->
     <div id="editorjs"></div>
 

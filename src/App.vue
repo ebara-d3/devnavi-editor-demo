@@ -10,14 +10,11 @@ const currentRoute = useRoute();
     <img alt="Vue logo" class="logo" src="@/assets/logo.png" height="125" />
   </header>
   <nav class="nav"> <ul>
-      <li :class="currentRoute.name === 'home' ? 'selected' : ''" >
-      <RouterLink to="/">Editor 1</RouterLink>
+      <li :class="currentRoute.name === 'editor1' ? 'selected' : ''" >
+        <RouterLink to="/">エティター1</RouterLink>
       </li>
       <li :class="currentRoute.name === 'editor2' ? 'selected' : ''" >
-      <RouterLink to="/editor2">Editor 2</RouterLink>
-      </li>
-      <li :class="currentRoute.name === 'editor3' ? 'selected' : ''" >
-      <RouterLink to="/editor3">Editor 3</RouterLink>
+        <RouterLink to="/editor1">エティター2</RouterLink>
       </li>
     </ul>
   </nav>
